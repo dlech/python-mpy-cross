@@ -25,6 +25,6 @@ norecursedirs = ["micropython/*"]
 extend-exclude = "micropython"
 
 [tool.cibuildwheel]
-build = "cp38-*"
+build = "cp313-*"
 test-requires = "pytest"
 test-command = "pytest {project}/tests"
