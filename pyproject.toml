@@ -25,4 +25,4 @@ norecursedirs = ["micropython/*"]
 extend-exclude = "micropython"
 
 [tool.cibuildwheel]
-build = "cp38-*"
+build = "cp313-*"
